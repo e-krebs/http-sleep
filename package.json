@@ -1,0 +1,30 @@
+{
+  "name": "http-sleep",
+  "version": "1.0.0",
+  "description": "windows service to remotely put your PC on sleep",
+  "homepage": "https://github.com/e-krebs/http-sleep",
+  "main": "service.js",
+  "author": {
+    "name": "Emmanuel Krebs",
+    "url": "https://github.com/e-krebs"
+  },
+  "keywords": [
+    "node",
+    "windows",
+    "service",
+    "windows service",
+    "sleep",
+    "hibernate",
+    "SetSuspendedState"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/e-krebs/http-sleep"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.15.4",
+    "node-cmd": "^3.0.0",
+    "node-windows": "^0.1.14"
+  }
+}
