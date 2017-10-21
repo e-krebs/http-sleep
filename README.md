@@ -45,6 +45,8 @@ If your request is ok, you'll receive a *'ok'* message along with a 200 status.
 
 If not, you'll receive either a *'bad request'* message with a 400 status (if your secret is wrong) or a *'not found'* message with a 404 status (if no secret is provided).
 
+If you notice after some time that the service is not running anymore, just [uninstall](#uninstall) it then re-[install](#install) it.
+
 ## uninstall
 To uninstall, just run 
 ```shell
