@@ -50,7 +50,7 @@ If you notice after some time that the service is not running anymore, just [uni
 ## uninstall
 To uninstall, just run 
 ```shell
-node .\service.js
+node .\uninstall.js
 ```
 you should see the following output:
 ```shell
