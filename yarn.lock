@@ -95,7 +95,7 @@ etag@~1.8.1:
   resolved "https://registry.yarnpkg.com/etag/-/etag-1.8.1.tgz#41ae2eeb65efa62268aebfea83ac7d79299b0887"
   integrity sha1-Qa4u62XvpiJorr/qg6x9eSmbCIc=
 
-express@^4.16.2:
+express@^4.17.2:
   version "4.17.2"
   resolved "https://registry.yarnpkg.com/express/-/express-4.17.2.tgz#c18369f265297319beed4e5558753cc8c1364cb3"
   integrity sha512-oxlxJxcQlYwqPWKVJJtvQiwHgosH/LrLSPA+H4UxpyvSS6jC5aH+5MoHFM+KABgTOt0APue4w66Ha8jCUo9QGg==
@@ -239,10 +239,10 @@ node-cmd@^5.0.0:
   resolved "https://registry.yarnpkg.com/node-cmd/-/node-cmd-5.0.0.tgz#a4a850b569e009bec0199a131c9db607144fdbc0"
   integrity sha512-4sQTJmsS5uZKAPz/Df9fnIbmvOySfGdW+UreH4X5NcAOOpKjaE+K5wf4ehNBbZVPo0vQ36RkRnhhsXXJAT+Syw==
 
-node-windows@^0.1.14:
-  version "0.1.14"
-  resolved "https://registry.yarnpkg.com/node-windows/-/node-windows-0.1.14.tgz#31bb0503da3bc637f2bfaa8b266640a2e92d891f"
-  integrity sha1-MbsFA9o7xjfyv6qLJmZAouktiR8=
+node-windows@1.0.0-beta.6:
+  version "1.0.0-beta.6"
+  resolved "https://registry.yarnpkg.com/node-windows/-/node-windows-1.0.0-beta.6.tgz#04bf66946760bb8507f1d1326267587b56b8c8b3"
+  integrity sha512-Ehig70tF9A9Wns4VMpnsvT7dyat/d2fio6C4g1RAEaAi+piAjN6Wc+/fdSOifl8YCCncVllijv5Q9wdyHvdgeA==
   dependencies:
     optimist "~0.6.0"
     xml "0.0.12"

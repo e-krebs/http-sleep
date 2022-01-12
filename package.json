@@ -1,6 +1,6 @@
 {
   "name": "http-sleep",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "windows service to remotely put your PC on sleep",
   "homepage": "https://github.com/e-krebs/http-sleep",
   "main": "service.js",
@@ -23,8 +23,8 @@
   },
   "license": "MIT",
   "dependencies": {
-    "express": "^4.16.2",
+    "express": "^4.17.2",
     "node-cmd": "^5.0.0",
-    "node-windows": "^0.1.14"
+    "node-windows": "1.0.0-beta.6"
   }
 }
