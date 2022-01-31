@@ -36,6 +36,8 @@ node .\service.js
 
 and it's installed!
 
+Don't forget to open the port you've configured (3031 by default) using Windows' firewall.
+
 To call it, just send a request to your PC like :
 
 > http://<your_pc_ip>:3101?request=azertyuiop
