@@ -2,6 +2,11 @@
 # yarn lockfile v1
 
 
+"@author.io/arg@1.3.22":
+  version "1.3.22"
+  resolved "https://registry.yarnpkg.com/@author.io/arg/-/arg-1.3.22.tgz#800acca32716ab6a43c7f485270de1c012b8be2a"
+  integrity sha512-P8Ov8N4LzVZDwvSjFu+eJVNbEqfIWcXMy7rARG1KNnII8+XSHXnR1JVJfUDgEnJNPPys1w0lV8kN4RPj9xhDHA==
+
 accepts@~1.3.8:
   version "1.3.8"
   resolved "https://registry.yarnpkg.com/accepts/-/accepts-1.3.8.tgz#0bf0be125b67014adcb0b0921e62db7bffe16b2e"
@@ -214,7 +219,7 @@ mime@1.6.0:
   resolved "https://registry.yarnpkg.com/mime/-/mime-1.6.0.tgz#32cd9e5c64553bd58d19a568af452acff04981b1"
   integrity sha512-x0Vn8spI+wuJ1O6S7gnbaQg8Pxh4NNHb7KSINmEWKiPE4RKOplvijn+NkmYmmRgP68mc70j2EbeTFRsrswaQeg==
 
-"minimist@>= 0.2.1", minimist@~0.0.1:
+"minimist@>= 0.2.1":
   version "1.2.5"
   resolved "https://registry.yarnpkg.com/minimist/-/minimist-1.2.5.tgz#67d66014b66a6a8aaa0c083c5fd58df4e4e97602"
   integrity sha512-FM9nNUYrRBAELZQT3xeZQ7fmMOBg6nWNmJKTcgsJeaLstP/UODVpGsr5OhXhhXg6f+qtJ8uiZ+PUxkDWcgIXLw==
@@ -239,13 +244,13 @@ node-cmd@^5.0.0:
   resolved "https://registry.yarnpkg.com/node-cmd/-/node-cmd-5.0.0.tgz#a4a850b569e009bec0199a131c9db607144fdbc0"
   integrity sha512-4sQTJmsS5uZKAPz/Df9fnIbmvOySfGdW+UreH4X5NcAOOpKjaE+K5wf4ehNBbZVPo0vQ36RkRnhhsXXJAT+Syw==
 
-node-windows@1.0.0-beta.6:
-  version "1.0.0-beta.6"
-  resolved "https://registry.yarnpkg.com/node-windows/-/node-windows-1.0.0-beta.6.tgz#04bf66946760bb8507f1d1326267587b56b8c8b3"
-  integrity sha512-Ehig70tF9A9Wns4VMpnsvT7dyat/d2fio6C4g1RAEaAi+piAjN6Wc+/fdSOifl8YCCncVllijv5Q9wdyHvdgeA==
+node-windows@1.0.0-beta.7:
+  version "1.0.0-beta.7"
+  resolved "https://registry.yarnpkg.com/node-windows/-/node-windows-1.0.0-beta.7.tgz#b786eee9db9dcaaf6c58d524c564bfb687beabfa"
+  integrity sha512-JnsGjdNmZ9oQZXXUoC7psAFQcyJaMa7cwrfNX+CbZNuPvP3fczVXT5uIO4n56v7jY2814XEtWulYabJUAgbcNA==
   dependencies:
-    optimist "~0.6.0"
-    xml "0.0.12"
+    "@author.io/arg" "1.3.22"
+    xml "1.0.1"
 
 on-finished@~2.3.0:
   version "2.3.0"
@@ -253,14 +258,6 @@ on-finished@~2.3.0:
   integrity sha1-IPEzZIGwg811M3mSoWlxqi2QaUc=
   dependencies:
     ee-first "1.1.1"
-
-optimist@~0.6.0:
-  version "0.6.1"
-  resolved "https://registry.yarnpkg.com/optimist/-/optimist-0.6.1.tgz#da3ea74686fa21a19a111c326e90eb15a0196686"
-  integrity sha1-2j6nRob6IaGaERwybpDrFaAZZoY=
-  dependencies:
-    minimist "~0.0.1"
-    wordwrap "~0.0.2"
 
 parseurl@~1.3.3:
   version "1.3.3"
@@ -377,12 +374,7 @@ vary@~1.1.2:
   resolved "https://registry.yarnpkg.com/vary/-/vary-1.1.2.tgz#2299f02c6ded30d4a5961b0b9f74524a18f634fc"
   integrity sha1-IpnwLG3tMNSllhsLn3RSShj2NPw=
 
-wordwrap@~0.0.2:
-  version "0.0.3"
-  resolved "https://registry.yarnpkg.com/wordwrap/-/wordwrap-0.0.3.tgz#a3d5da6cd5c0bc0008d37234bbaf1bed63059107"
-  integrity sha1-o9XabNXAvAAI03I0u68b7WMFkQc=
-
-xml@0.0.12:
-  version "0.0.12"
-  resolved "https://registry.yarnpkg.com/xml/-/xml-0.0.12.tgz#f08b347109912be00285785f46f15ad8e50a5f67"
-  integrity sha1-8Is0cQmRK+AChXhfRvFa2OUKX2c=
+xml@1.0.1:
+  version "1.0.1"
+  resolved "https://registry.yarnpkg.com/xml/-/xml-1.0.1.tgz#78ba72020029c5bc87b8a81a3cfcd74b4a2fc1e5"
+  integrity sha1-eLpyAgApxbyHuKgaPPzXS0ovweU=
