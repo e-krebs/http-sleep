@@ -23,7 +23,7 @@
   },
   "license": "MIT",
   "dependencies": {
-    "express": "^4.18.3",
+    "express": "^4.19.1",
     "node-cmd": "^5.0.0",
     "node-windows": "1.0.0-beta.8"
   },
