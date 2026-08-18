@@ -368,10 +368,10 @@ negotiator@^1.0.0:
   resolved "https://registry.yarnpkg.com/negotiator/-/negotiator-1.0.0.tgz#b6c91bb47172d69f93cfd7c357bbb529019b5f6a"
   integrity sha512-8Ofs/AUQh8MaEcrlq5xOX0CQ9ypTF5dl78mjlMNfOK08fzpgTHQRQPBxcPlEtIw0yRpws+Zo/3r+5WRby7u3Gg==
 
-node-cmd@^5.0.0:
-  version "5.0.0"
-  resolved "https://registry.yarnpkg.com/node-cmd/-/node-cmd-5.0.0.tgz#a4a850b569e009bec0199a131c9db607144fdbc0"
-  integrity sha512-4sQTJmsS5uZKAPz/Df9fnIbmvOySfGdW+UreH4X5NcAOOpKjaE+K5wf4ehNBbZVPo0vQ36RkRnhhsXXJAT+Syw==
+node-cmd@^6.0.0:
+  version "6.0.0"
+  resolved "https://registry.yarnpkg.com/node-cmd/-/node-cmd-6.0.0.tgz#46e6316f5a35fffbdaed1d886c3b5a85fc873795"
+  integrity sha512-kMvaI08OcPcYwrnOy3gWvJdFRNWZKFnTIuo0IS1lqQOb4XLhguQvobiILtnBDVWfKVv1v+cLajXaHx+o7A5FbQ==
 
 node-windows@1.0.0-beta.8:
   version "1.0.0-beta.8"
